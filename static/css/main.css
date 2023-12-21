@@ -1,0 +1,54 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Diğer elemanlar üzerinde olması için bir z-index değeri belirleyebilirsiniz. */
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    /* Genişlik */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Arkaplan rengi */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: yellow;
+    /* Kaydırma kolu rengi */
+    border-radius: 6px;
+    /* Köşe yarıçapı */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Kaydırma kolu rengi hover durumunda */
+}
+
+.item {
+    color: white;
+}
+
+.item:hover {
+    color: white;
+    background-color: #0c0f16;
+    border-radius: 5px;
+    padding: 3px;
+    transition: 0.4s;
+}
+
+.link {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 55px;
+    transition: 0.4s;
+}
